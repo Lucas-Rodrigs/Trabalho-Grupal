@@ -3,7 +3,7 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    height: 100rem;
+    height: 50rem;
     
 }   
 header {
@@ -35,7 +35,8 @@ main h2 {
     flex-wrap: wrap;
     justify-content: center;
     row-gap: 50px;
-    column-gap: 10%
+    column-gap: 8%;
+    
 
 }
 /* folders */
@@ -79,15 +80,12 @@ main h2 {
     transform: scale(1.2);
 }
 /* footer */
+
 footer {
+    width: 100%;
+    padding: 10px 0;
     background: #333;
     color: #fff;
     text-align: center;
-    padding: 10px 0;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-    
+ 
 }
-
-
