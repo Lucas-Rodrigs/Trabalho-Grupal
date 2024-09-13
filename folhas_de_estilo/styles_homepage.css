@@ -19,26 +19,6 @@ header h1 {
     margin: 0;
 }
 
-/*nav ul {
-    list-style: none;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin-right: 10px;
-}
-li:hover {
-    transition: 500ms;
-    transform:scale(0.99);
-
-}
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-}*/
-
 main {
     padding: 30px;
 }
@@ -50,22 +30,24 @@ main h2 {
 /* area folders*/
 .area-folders{
     padding: 10px;
-    
+    align-self: baseline;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     row-gap: 50px;
     column-gap: 10%
+
 }
 /* folders */
 #folder{
     border-radius: 10px;
     text-align: center;
-    left: 25%;
     border: #33333369 solid;
     height: 350px;
     width: 250px;
-    font-size: 11px;
+    font-size: 12px;
+    
+    
 }
 #folder:hover{
     transition: 500ms;
@@ -79,23 +61,20 @@ main h2 {
     border-top-right-radius: 7px;
 }
 #folder p{
+    height: 70px;
     text-align: justify;
     padding: 5px;
-}
-#folder button{
-    border-radius: 10px;
-    border: none;
-    background-color: rgba(80, 131, 131, 0.39);
-/*    position: absolute;*/
-    margin-bottom: 5px;
-
-}
-#folder button a{
-    text-decoration: none;
-    color: black;
     
 }
-#folder button:hover {
+#folder a{
+    background-color: rgba(80, 131, 131, 0.39);
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    border-radius: 10px;
+    margin-top: 10px; 
+}
+#folder a:hover {
     transition: 500ms;
     transform: scale(1.2);
 }

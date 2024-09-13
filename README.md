@@ -1,2 +1,2 @@
 # Trabalho-Grupo
-Este é mais um trabalho grupal...( ͡° ͜ʖ ͡°)
+Este é mais um trabalho em grupo...( ͡° ͜ʖ ͡°)
